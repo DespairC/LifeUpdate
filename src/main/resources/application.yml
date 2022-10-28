@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: lifeUpdate
+  datasource:
+    # p6spy
+    url: jdbc:p6spy:sqlite:D:\hwh\project\LifeUpdate\src\main\resources\database\LifeUpDB.db
+    # com.p6spy.engine.spy.P6SpyDriver
+    # org.sqlite.JDBC
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+    username:
+    password:
